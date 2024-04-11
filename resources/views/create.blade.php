@@ -41,8 +41,6 @@
     </div>
     <button type="submit" class="btn btn-primary">Create</button>
 </form>
-    <form action="{{route('users.index')}}">
-        <button>Back</button>
-    </form>
+    <a href="{{route('users.index')}}">Back</a>
 </body>
 </html>

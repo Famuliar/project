@@ -33,9 +33,7 @@
                 </tr>
             </tbody>
         </table>
-        <form action="{{route('users.index')}}">
-            <button>Back</button>
-        </form>
+        <a href="{{route('users.index')}}">Back</a>
     </div>
 </body>
 </html>
